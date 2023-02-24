@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fdb33e-7a62-45d1-ba7d-2374ba6b769d" name="Changes" comment="Cviceni 2 - obrazce">
+    <list default="true" id="24fdb33e-7a62-45d1-ba7d-2374ba6b769d" name="Changes" comment="Cviceni 3 - obrazek, kompozice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/czechitas/java/ukol01/HlavniProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/czechitas/java/ukol01/HlavniProgram.java" afterDir="false" />
     </list>
@@ -107,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677252425973</updated>
       <workItem from="1677252428594" duration="3514000" />
-      <workItem from="1677270688153" duration="3284000" />
+      <workItem from="1677270688153" duration="5821000" />
     </task>
     <task id="LOCAL-00001" summary="Cviceni 1  - prase">
       <created>1677255826035</created>
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677272420436</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cviceni 3 - obrazek, kompozice">
+      <created>1677274530765</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677274530765</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cviceni 1  - prase" />
     <MESSAGE value="Cviceni 2 - obrazce" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cviceni 2 - obrazce" />
+    <MESSAGE value="Cviceni 3 - obrazek, kompozice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cviceni 3 - obrazek, kompozice" />
   </component>
 </project>
