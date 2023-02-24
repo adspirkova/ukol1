@@ -9,7 +9,17 @@ public class HlavniProgram {
     private Turtle zofka;
 
     public void start() {
-        obrazce();
+        nakresliPrase();
+        nakresliDomecek(650, 400);
+
+        nakresliDomecek(650, 280);
+        nakresliDomecek(550, 280);
+        nakresliDomecek(450, 280);
+        nakresliDomecek(350, 280);
+        nakresliDomecek(250, 280);
+
+        nakresliDomecek(250, 400);
+        nakresliSlunce();
     }
 
     public void obrazce() {
@@ -20,23 +30,24 @@ public class HlavniProgram {
 
     public void nakresliSlunce() {
         Turtle zofka = new Turtle();
-        zofka.setLocation(600,200);
+        zofka.setLocation(300,100);
         zofka.penDown();
 
         for (int i = 0; i < 180; i++) {
-            zofka.move(2);
+            zofka.move(1);
             if (i % 18 == 0) {
                 zofka.turnLeft(90);
-                zofka.move(30);
+                zofka.move(20);
                 zofka.turnLeft(180);
                 zofka.penUp();
-                zofka.move(30);
+                zofka.move(20);
                 zofka.penDown();
                 zofka.turnLeft(90);
             }
             zofka.turnRight(2);
         }
         zofka.penUp();
+        zofka.setLocation(-450,-400);
     }
 
     public void nakresliKolo() {
@@ -65,13 +76,15 @@ public class HlavniProgram {
 
     public void nakresliPrase() {
         Turtle zofka = new Turtle();
-        obdelnik(80,120, zofka);
-        nakresliTrojuhelnik(80, zofka);
-        nakresliParNohou(40, zofka);
+        zofka.setLocation(450,400);
+        obdelnik(40,60, zofka);
+        nakresliTrojuhelnik(40, zofka);
+        nakresliParNohou(20, zofka);
         zofka.turnRight(90);
-        zofka.move(120);
+        zofka.move(60);
         zofka.turnLeft(90);
-        nakresliParNohou(40, zofka);
+        nakresliParNohou(20, zofka);
+        zofka.setLocation(-450,-400);
     }
 
     public void ctverec(double delkaStrany, Turtle zofka) {
@@ -82,6 +95,16 @@ public class HlavniProgram {
             zofka.turnRight(90);
         }
         zofka.penUp();
+    }
+
+    public void nakresliDomecek(double polohaX, double polohaY) {
+        Turtle zofka = new Turtle();
+        zofka.setLocation(polohaX,polohaY);
+        obdelnik(60,40, zofka);
+        zofka.move(60);
+        zofka.turnRight(90);
+        nakresliTrojuhelnik(40, zofka);
+        zofka.setLocation(-polohaX,-polohaY);
     }
 
     public void obdelnik(double delkaStranyX, double delkaStranyY,Turtle zofka) {
