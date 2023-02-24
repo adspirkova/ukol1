@@ -16,10 +16,8 @@ public class HlavniProgram {
 
     public void nakresliPrase() {
         Turtle zofka = new Turtle();
-
-        //TODO implementace domácího úkolu
         obdelnik(80,120, zofka);
-        nakresliHlavu(80, zofka);
+        nakresliTrojuhelnik(80, zofka);
         nakresliParNohou(40, zofka);
         zofka.turnRight(90);
         zofka.move(120);
@@ -64,7 +62,7 @@ public class HlavniProgram {
         zofka.turnRight(45);
     }
 
-    public void nakresliHlavu(double delkaStrany, Turtle zofka) {
+    public void nakresliTrojuhelnik(double delkaStrany, Turtle zofka) {
         for (int i = 0; i < 3; i++) {
             zofka.penDown();
             zofka.move(delkaStrany);
